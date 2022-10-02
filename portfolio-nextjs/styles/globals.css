@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+    @apply bg-[#1d1d1f] text-[#afc1d9] tracking-wide;
   }
 
   h1,
@@ -29,6 +29,6 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   }
 }
