@@ -1,5 +1,6 @@
 //import Head from "next/head";
 import Head from "next/head";
+import About from "../components/About";
 import Main from "../components/main";
 import Navbar from "../components/Navbar";
 
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
       <Navbar/>
       <Main/>
-      
+      <About/>
     </div>
   );
 }
